@@ -1,0 +1,183 @@
+/* Variable */
+
+:root {
+    --background: #FFFFFF;
+    --foreground: #000000;
+    --gray: #8E8E93;
+    --gray-2: #AEAEB2;
+    --gray-3: #C7C7CC;
+    --gray-4: #D1D1D6;
+    --gray-5: #E5E5EA;
+    --gray-6: #F2F2F7;
+    --red: #FF3B30;
+    --orange: #FF9500;
+    --yellow: #FFCC00;
+    --green: #34C759;
+    --mint: #00C7BE;
+    --teal: #30B0C7;
+    --cyan: #32ADE6;
+    --blue: #007AFF;
+    --indigo: #5856D6;
+    --purple: #AF52DE;
+    --pink: #FF2D55;
+    --brown: #A2845E;
+    --white: #FFFFFF;
+    --black: #000000;
+    --shadow: #00000010;
+    --image: url("assets/background.jpg");
+    --matsubara-kita-elem-school: url("assets/Light_松原北小学校.png");
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000000;
+        --foreground: #FFFFFF;
+        --gray: #8E8E93;
+        --gray-2: #636366;
+        --gray-3: #48484A;
+        --gray-4: #3a3a3C;
+        --gray-5: #2C2C2E;
+        --gray-6: #1C1C1E;
+        --red: #FF453A;
+        --orange: #FF9F0A;
+        --yellow: #FFD60A;
+        --green: #30D158;
+        --mint: #66D4CF;
+        --teal: #40C8E0;
+        --cyan: #64D2FF;
+        --blue: #0A84FF;
+        --indigo: #5E5CE6;
+        --purple: #BF5AF2;
+        --pink: #FF375F;
+        --brown: #AC8E68;
+        --white: #FFFFFF;
+        --black: #000000;
+        --shadow: #FFFFFF10;
+        --image: url("assets/background-dark.jpg");
+        --matsubara-kita-elem-school: url("assets/Dark_松原北小学校.png");
+    }
+}
+
+/* Color */
+
+.red {
+    background-color: var(--red) !important;
+}
+
+.orange {
+    background-color: var(--orange) !important;
+}
+
+.yellow {
+    background-color: var(--yellow) !important;
+}
+
+.green {
+    background-color: var(--green) !important;
+}
+
+.mint {
+    background-color: var(--mint) !important;
+}
+
+.teal {
+    background-color: var(--teal) !important;
+}
+
+.cyan {
+    background-color: var(--cyan) !important;
+}
+
+.blue {
+    background-color: var(--blue) !important;
+}
+
+.indigo {
+    background-color: var(--indigo) !important;
+}
+
+.purple {
+    background-color: var(--purple) !important;
+}
+
+.pink {
+    background-color: var(--pink) !important;
+}
+
+.brown {
+    background-color: var(--brown) !important;
+}
+
+/* Font */
+
+.bold {
+    font-weight: 700;
+}
+
+.large {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/* Icon */
+
+.house {
+    mask-image: url("assets/symbols/house.svg");
+}
+
+.line-3-horizontal {
+    mask-image: url("assets/symbols/line-3-horizontal.svg");
+}
+
+.xmark {
+    mask-image: url("assets/symbols/xmark.svg");
+}
+
+.figure-basketball {
+    mask-image: url("assets/symbols/figure-basketball.svg");
+}
+
+.basketball {
+    mask-image: url("assets/symbols/basketball.svg");
+}
+
+.person-crop-circle {
+    mask-image: url("assets/symbols/person-crop-circle.svg");
+}
+
+.calendar {
+    mask-image: url("assets/symbols/calendar.svg");
+}
+
+.location-fill {
+    mask-image: url("assets/symbols/location-fill.svg");
+}
+
+.arrow-up-forward {
+    mask-image: url("assets/symbols/arrow-up-forward.svg");
+}
+
+.arrow-up-forward-app {
+    mask-image: url("assets/symbols/arrow-up-forward-app.svg");
+}
+
+.person-3-fill {
+    mask-image: url("assets/symbols/person-3-fill.svg");
+}
+
+.list-bullet-clipboard {
+    mask-image: url("assets/symbols/list-bullet-clipboard.svg");
+}
+
+.phone-fill {
+    mask-image: url("assets/symbols/phone-fill.svg");
+}
+
+.text-bubble-fill {
+    mask-image: url("assets/symbols/text-bubble-fill.svg");
+}
+
+.chevron-forward {
+    mask-image: url("assets/symbols/chevron-forward.svg");
+}

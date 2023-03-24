@@ -1,0 +1,21 @@
+{
+    "name": "Matsubara Raccoon Dog",
+    "short_name": "Raccoon",
+    "description": "松原市のバスケクラブチーム【MATSUBARA RACCOON DOG】の最新情報をお届けします",
+    "start_url": "/",
+    "theme_color": "#F1DAC4",
+    "background_color": "#F1DAC4",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

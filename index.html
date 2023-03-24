@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="description" content="松原市のミニバスチーム「松原ラクーンドッグ」のウェブサイト。松原市でバスケしたい小学生を募集中！">
+    <title>【松原市で募集中】ミニバスチーム MATSUBARA RACCOON DOG</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <script src="app.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register("sw.js")
+                    .then(function (registration) {
+                        console.log("Service Worker registration is successful.");
+                    }).catch(function (error) {
+                        console.warn("Service Worker registration is failed. ", error);
+                    });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <div class="background">
+            <img class="header" src="assets/header.png" alt="MATSUBARA RACCOON DOG ロゴ">
+        </div>
+        <div class="container">
+            <section>
+                <h1>活動方針</h1>
+                <div>
+                    <p>
+                        4月より活動を開始する、ミニバスケットボールチームの松原ラクーンドッグです。
+                    </p>
+                    <p>
+                        <b>小学1年生から6年生</b>で、バスケに興味がある人を募集中です！
+                    </p>
+                    <p>
+                        チームとして大切にしていることは、<b>「楽しく、真剣、協力」</b>です。
+                    </p>
+                    <p>
+                        練習や試合を通して、バスケットボールの上達を目指すことはもちろん、チームメイトと協力し、<b>人としても成長</b>することを大切にしています。
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h1>活動内容</h1>
+                <div class="list">
+                    <h1>練習場所</h1>
+                    <p class="big">松原市立松原北小学校</p>
+                </div>
+                <div class="list">
+                    <h1>部費</h1>
+                    <p class="big">1000円</p>
+                </div>
+                <div class="list">
+                    <h1>練習日</h1>
+                    <div class="vertical">
+                        <div>
+                            <p class="big">水曜日</p>
+                            <p class="big">土・日曜日</p>
+                        </div>
+                        <div class="adaptive">
+                            <p class="big">夕方5時半〜7時</p>
+                            <p class="big">夕方5時〜7時</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <h1>スポーツ傷害保険</h1>
+                    <p class="big">加入必須</p>
+                </div>
+                <div>
+                    <p>スポーツ傷害保険に必ず入っていただきます。1年間あたり800円となります。</p>
+                    <p>交通費については、練習試合で遠方へ行く際は別途集めさせていただきます。</p>
+                </div>
+            </section>
+            <section>
+                <h1>アクセスマップ</h1>
+                <div class="place">
+                    <p class="top bottom bold">松原市立松原北小学校</p>
+                    <button class="overlay"
+                        onclick="maps('?address=%E6%9D%BE%E5%8E%9F%E5%8C%97%E5%B0%8F%E5%AD%A6%E6%A0%A1,%20%E3%80%92580-0043,%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%9D%BE%E5%8E%9F%E5%B8%82,%20%E9%98%BF%E4%BF%9D1%E4%B8%81%E7%9B%AE16&auid=574821737633288537&ll=34.579206,135.551699&lsp=9902&q=%E6%9D%BE%E5%8E%9F%E5%8C%97%E5%B0%8F%E5%AD%A6%E6%A0%A1')">
+                        <img class="maps 01" alt="松原北小学校のマップ" style="content: var(--matsubara-kita-elem-school)">
+                        <div class="open-maps">
+                            <p class="bold">マップで開く</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+            <section>
+                <h1>代表連絡先</h1>
+                <div class="list">
+                    <h1>携帯電話</h1>
+                    <p class="big">090-8538-1149</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
