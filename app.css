@@ -434,21 +434,11 @@ section div {
 }
 
 .list .vertical {
-    display: flex;
     flex-grow: 1;
 }
 
 .list * {
     margin-inline: 0;
-}
-
-.list .vertical div {
-    text-align: right;
-}
-
-.list .vertical div:not(.adaptive) {
-    margin-inline-end: 20px;
-    flex-grow: 1;
 }
 
 @media screen and (max-width: 720px) {
@@ -465,15 +455,6 @@ section div {
         flex-grow: 1;
         text-align: left;
     }
-
-    .list .vertical {
-        display: flex;
-    }
-
-    .list .vertical div:not(.adaptive) {
-        margin-inline-end: 5px;
-    }
-
     /* th */
     
     th {
