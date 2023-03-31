@@ -44,7 +44,8 @@ div {
 .container {
     max-width: 800px;
     margin-inline: auto;
-    padding: 20px;
+    padding-block: 40px;
+    padding-inline: 20px;
 }
 
 .page-link {
@@ -152,10 +153,15 @@ section:last-child {
 /* a */
 
 a {
+    color: var(--foreground);
+    text-decoration: none;
+    outline: none;
+}
+
+a:not(.big) {
     max-width: calc(100% - 10px);
     padding: 10px;
     border-radius: 10px;
-    color: var(--foreground);
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
@@ -472,7 +478,7 @@ section div {
 @media screen and (max-width: 480px) {
     /* a */
 
-    a {
+    a:not(.big) {
         display: block;
     }
 
